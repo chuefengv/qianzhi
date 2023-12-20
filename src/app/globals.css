@@ -34,3 +34,12 @@ main{
     }
   }
 }
+
+.body-component{
+  .video-player{
+    /* border: solid green 2px; */
+    margin: 0 auto;
+    max-width: 100vw;
+  
+  }
+}
