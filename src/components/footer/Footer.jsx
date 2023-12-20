@@ -8,12 +8,15 @@ export default function Footer() {
     <div className='footer-component'>
       <div className='reach-out'>
         <p>REACH OUT</p>
-        <p>Qianzhi Shen</p>
         <p>NEW YORK CITY</p>
       </div>
       <div className='contact-links'>
-        <Icon icon="ic:outline-email" />
-        <Icon icon="il:instagram" />
+        <a href='/'>
+          <Icon icon="il:instagram" className='contact-icons'/>
+        </a>
+        <a href='/'>
+          <Icon icon="ic:outline-email" className='contact-icons'/>
+        </a>
       </div>
     </div>
   )

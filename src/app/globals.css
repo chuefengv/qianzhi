@@ -48,16 +48,28 @@ main{
 
 /* This selector is in control of the Footer component */
 .footer-component{
-  /* border: solid 1px red; */
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  text-align: center;
   
   .reach-out{
     justify-self: center;
   }
   .contact-links{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-self: center;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    width: 100%;
+
+    a{
+      width: 36px;
+      height: 36px;
+      margin: 20px 10px 20px 10px;
+      .contact-icons{
+        color: black;
+        width: 36px;
+        height: 36px;
+      }
+    }
   }
 }
