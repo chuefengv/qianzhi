@@ -4,13 +4,16 @@
 }
 
 main{
-  border: solid red 1px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
   max-width: 1300px;
+  height: 100vh;
   margin: 0 auto;
 }
 
 /* This selector is in control of the Header component */
 .header-component{
+  /* border: solid green 1px; */
   .title{
     /* border: solid blue 1px; */
     padding: 50px 0px 20px 0px;
@@ -22,24 +25,39 @@ main{
   }
 
   .nav-bar{
-    /* border: solid red 1px; */
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
     padding: 10px 0px 10px 0px;
 
     div{
-      /* border: solid green 1px; */
       margin: 0px 10px 0px 10px;
     }
   }
 }
 
+/* This selector is in control of the Body component */
 .body-component{
+  /* border: solid purple 1px; */
   .video-player{
-    /* border: solid green 2px; */
     margin: 0 auto;
     max-width: 100vw;
   
+  }
+}
+
+/* This selector is in control of the Footer component */
+.footer-component{
+  /* border: solid 1px red; */
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  
+  .reach-out{
+    justify-self: center;
+  }
+  .contact-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-self: center;
   }
 }
