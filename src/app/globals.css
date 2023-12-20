@@ -1,3 +1,20 @@
 *{
-  background-color: red;
+  margin: 0;
+  padding: 0;
+}
+
+/* This selector is in control of the Header component */
+.header-component{
+
+  .title{
+    border: solid blue 1px;
+    text-align: center;
+  }
+
+  .nav-bar{
+    border: solid red 1px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
 }
