@@ -17,10 +17,7 @@ export default function Body() {
 
   return (
     <div className='body-component'>
-      {/* <div className="video-wrapper">
-        {hasWindow && <ReactPlayer url={URL} controls='yes' className='video-player'/>}
-      </div> */}
-      <iframe className="video-player" width="560" height="315" src="https://www.youtube.com/embed/ABJJQLeVlqA?si=GH0cKTreCREuMo6F" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe className="video-player" src="https://www.youtube.com/embed/ABJJQLeVlqA?si=GH0cKTreCREuMo6F" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
     </div>
   )
 }
