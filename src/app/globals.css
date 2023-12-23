@@ -44,8 +44,8 @@
   }
 }
 
-/* This selector is in control of the Body component */
-.body-component{
+/* This selector is in control of the demoreel component */
+.demoreel{
   display: grid;
   justify-content: center;
   .video-player{
