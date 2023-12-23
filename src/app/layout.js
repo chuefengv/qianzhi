@@ -1,3 +1,5 @@
+import Header from "@/components/header/Header"
+import Footer from "@/components/footer/Footer"
 
 export const metadata = {
   title: 'Qianzhi Shen',
@@ -7,7 +9,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="layout">
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }

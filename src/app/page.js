@@ -6,9 +6,7 @@ import "./globals.css"
 export default function Home() {
   return (
     <main>
-      <Header />
       <Body />
-      <Footer />
     </main>
   )
 }
