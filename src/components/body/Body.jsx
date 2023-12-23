@@ -17,7 +17,7 @@ export default function Body() {
 
   return (
     <div className='body-component'>
-      {hasWindow && <ReactPlayer url={URL} className='video-player' width='640px' />}
+      <iframe className="video-player" src="https://www.youtube.com/embed/ABJJQLeVlqA?si=GH0cKTreCREuMo6F" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
     </div>
   )
 }

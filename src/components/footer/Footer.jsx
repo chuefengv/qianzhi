@@ -12,10 +12,10 @@ export default function Footer() {
       </div>
       <div className='contact-links'>
         <a href='/'>
-          <Icon icon="il:instagram" className='contact-icons'/>
+          <Icon icon="iconoir:instagram" className='contact-icons'/>
         </a>
         <a href='/'>
-          <Icon icon="ic:outline-email" className='contact-icons'/>
+          <Icon icon="carbon:email" className='contact-icons'/>
         </a>
       </div>
     </div>
