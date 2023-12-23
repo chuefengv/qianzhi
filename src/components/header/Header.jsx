@@ -4,14 +4,24 @@ import "../../app/globals.css"
 export default function Header() {
   return (
     <div className='header-component'>
-        <div className='title'>
-            <h1>Qianzhi Shen</h1>
-            <h4>Steadicam Operator</h4>
+      
+        <div className='header-title'>
+          <h1>QIANZHI SHEN</h1>
+          <h4>STEADICAM OPERATOR</h4>
         </div>
-        <nav className='nav-bar'>
-            <div>Past Work</div>
-            <div>Equipment</div>
-        </nav>
+
+        <div className='page-links'>
+          <ul>
+            DEMOREEL
+          </ul>
+          <ul>
+            PROJECTS
+          </ul>
+          <ul>
+            EQUIPMENT
+          </ul>
+        </div>
+
     </div>
   )
 }
