@@ -86,4 +86,11 @@
 /* this is the selector for the projects page components */
 .projects{
   border: solid red 1px;
+  .image-wrapper{
+    width: 200px;
+    height: 200px;
+    img{
+      width: 100%;
+    }
+  }
 }
