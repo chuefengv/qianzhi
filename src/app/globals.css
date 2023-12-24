@@ -14,7 +14,7 @@
   }
 }
 
-main{
+.layout{
   display: grid;
   grid-template-rows: auto 1fr auto;
   max-width: 1300px;
@@ -44,8 +44,8 @@ main{
   }
 }
 
-/* This selector is in control of the Body component */
-.body-component{
+/* This selector is in control of the demoreel component */
+.demoreel{
   display: grid;
   justify-content: center;
   .video-player{
@@ -79,6 +79,18 @@ main{
         width: 36px;
         height: 36px;
       }
+    }
+  }
+}
+
+/* this is the selector for the projects page components */
+.projects{
+  border: solid red 1px;
+  .image-wrapper{
+    width: 200px;
+    height: 200px;
+    img{
+      width: 100%;
     }
   }
 }
