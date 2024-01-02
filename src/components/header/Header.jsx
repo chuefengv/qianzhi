@@ -14,7 +14,7 @@ export default function Header() {
         </div>
 
         <div className='page-links'>
-          <Link href='/projects'> 
+          <Link href='/'> 
             <ul>
               DEMOREEL
             </ul>
