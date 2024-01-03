@@ -24,7 +24,7 @@ export default function Header() {
               PROJECTS
             </ul>
           </Link>
-          <Link href='/projects'> 
+          <Link href='/equipment'> 
             <ul>
               EQUIPMENT
             </ul>

@@ -97,4 +97,17 @@
       object-fit: cover;
     }
   }
+  
+}
+
+.embla {
+  overflow: hidden;
+  border: solid red 1px;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
 }
