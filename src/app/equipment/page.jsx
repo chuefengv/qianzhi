@@ -12,7 +12,7 @@ export default function equipment() {
       <div className='image-container'>
         <img src={btsimages[7].url} alt='trets' />
       </div>
-      
+
       <section className='text-container'>
         <h3>My Current Gear:</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tenetur accusantium nemo mollitia, unde consectetur, aliquam delectus cum voluptatum aut repudiandae. Illo tenetur reprehenderit magnam similique quis facilis eum sit.</p>
