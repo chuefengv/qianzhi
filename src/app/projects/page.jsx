@@ -7,7 +7,7 @@ export default function projects() {
         {projectlist.map((video,index)=>{
             return(
                 <div className="image-wrapper">
-                    <img src={video.image} alt={video.title} />
+                    <img key={index} src={video.image} alt={video.title} />
                 </div>
             )
         })}

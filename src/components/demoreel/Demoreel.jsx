@@ -2,7 +2,6 @@
 import { useState, useEffect } from "react"
 import React from 'react'
 import "../../app/globals.css"
-import ReactPlayer from 'react-player/youtube'
 
 export default function Demoreel() {
 
