@@ -10,7 +10,7 @@ export default function equipment() {
   return (
     <div className='equipment'>
       <div className='carousel-container'>
-        <Carousel emulateTouch={true} swipeable={true} infiniteLoop={true} showArrows={false} showThumbs={false}>
+        <Carousel className='carousel' emulateTouch={true} swipeable={true} infiniteLoop={true} showStatus={false} showArrows={false} showThumbs={false}>
           {btsimages.map((image,index) => <img key={index} src={image.url} alt='this sialt text'/>)}
         </Carousel>
       </div>      
