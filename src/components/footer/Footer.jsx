@@ -5,15 +5,19 @@ import React from 'react'
 export default function Footer() {
   return (
     <div className='footer-component'>
+      <h4>Contact Me</h4>
       <section>
         <ul>
-          <h4>Contact Me</h4>
           <li>TsyenShen@fakeemail.com</li>
           <li>Resume</li>
           <li>Instagram</li>
           <li>IMDB</li>
         </ul>
       </section>
+
+      <div className='copyright'>
+        © 2024, Qianzhi Shen
+      </div>
     </div>
   )
 }
