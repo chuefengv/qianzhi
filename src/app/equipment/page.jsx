@@ -1,17 +1,19 @@
 'use client'
 import React from 'react'
 import "../../app/globals.css"
-import EmblaCarousel from '@/components/carousel/EmblaCarousel'
-
-
-const OPTIONS = {}
-const SLIDE_COUNT = 10
-const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { btsimages } from '../btsimages';
 
 export default function equipment() {
+
   return (
     <div>
-      <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+
+      <Carousel >
+        {btsimages.map(image=> <img src={image.url} alt='this sialt text'/>)}
+      </Carousel>
+      
     </div>
   )
 }
