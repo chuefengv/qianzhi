@@ -97,17 +97,22 @@
       object-fit: cover;
     }
   }
-  
 }
 
-.embla {
-  overflow: hidden;
-  border: solid red 1px;
-}
-.embla__container {
-  display: flex;
-}
-.embla__slide {
-  flex: 0 0 100%;
-  min-width: 0;
+.equipment{
+  .carousel-container{
+    margin: 0 auto;
+    /* border: solid green 4px; */
+    max-width: 500px;
+    width: 80vw;
+    .carousel{
+      border: solid red 1px;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        background-color: black;
+      }
+    }
+  }
 }

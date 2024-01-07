@@ -8,12 +8,12 @@ import { btsimages } from '../btsimages';
 export default function equipment() {
 
   return (
-    <div>
-
-      <Carousel >
-        {btsimages.map(image=> <img src={image.url} alt='this sialt text'/>)}
-      </Carousel>
-      
+    <div className='equipment'>
+      <div className='carousel-container'>
+        <Carousel emulateTouch={true} swipeable={true} infiniteLoop={true} showArrows={false} showThumbs={false}>
+          {btsimages.map((image,index) => <img key={index} src={image.url} alt='this sialt text'/>)}
+        </Carousel>
+      </div>      
     </div>
   )
 }
