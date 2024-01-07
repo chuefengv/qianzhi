@@ -8,7 +8,11 @@ export default function projects() {
             return(
                 <div className="image-wrapper">
                     <img key={index} src={video.image} alt={video.title} />
+                    <div className="image-title">
+                      <h4>{video.title}</h4>
+                    </div>
                 </div>
+              
             )
         })}
     </div>
