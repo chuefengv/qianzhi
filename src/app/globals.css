@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 *{
 
@@ -42,7 +42,7 @@
     padding: 30px 0 0 0;
     
     h4{
-      color: rgb(107, 107, 107);
+      color: rgb(150,150,150);
     }
   }
 
@@ -72,7 +72,23 @@
 
 /* This selector is in control of the Footer component */
 .footer-component{
+  border-top: solid rgb(190,190,190) 1px;
+  margin: 40px 20px 0 20px;
+  padding: 15px 0 15px 0;
 
+  h4{
+    margin: 10px 0 10px 0;
+    width: fit-content;
+  }
+  ul{
+    li{
+      list-style-type: none;
+      margin: 5px 0 5px 0;
+      font-size: .8em;
+      border-bottom: dotted rgb(190,190,190) 1px;
+      width: fit-content;
+    }
+  }
 }
 
 /* this is the selector for the projects page components */
