@@ -14,17 +14,17 @@ export default function Header() {
         </div>
 
         <div className='page-links'>
-          <Link href='/'> 
+          <Link className='link-el' href='/'> 
             <ul>
               DEMOREEL
             </ul>
           </Link>
-          <Link href='/projects'> 
+          <Link className='link-el' href='/projects'> 
             <ul>
               PROJECTS
             </ul>
           </Link>
-          <Link href='/equipment'> 
+          <Link className='link-el' href='/equipment'> 
             <ul>
               EQUIPMENT
             </ul>

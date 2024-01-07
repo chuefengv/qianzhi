@@ -47,14 +47,13 @@
   }
 
   .page-links{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     padding: 20px 0 20px 0;
-
-    ul{
-      width: fit-content;
-      display: inline;
-      margin: 0 25px 0 25px;
+    .link-el{
+      margin: 0 30px 0 30px;
     }
+
   }
 }
 
