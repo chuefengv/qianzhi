@@ -1,5 +1,4 @@
 'use client'
-
 import React from 'react'
 
 export default function Footer() {
@@ -8,10 +7,10 @@ export default function Footer() {
       <h4>Contact Me</h4>
       <section>
         <ul>
-          <li>TsyenShen@fakeemail.com</li>
-          <li>Resume</li>
-          <li>Instagram</li>
-          <li>IMDB</li>
+          <a href='mailto:contact@tsyen@me.com'>Tsyen@me.com</a>
+          <a href='https://qianzhishenequipment.s3.amazonaws.com/Resume.pdf' target='_blank'>Resume</a>
+          <a href='https://www.instagram.com/71yan/' target='_blank'>Instagram</a>
+          <a href='https://www.imdb.com/name/nm5123852/' target='_blank'>IMDB</a>
         </ul>
       </section>
 

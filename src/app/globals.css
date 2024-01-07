@@ -16,7 +16,7 @@
   }
 
   li{
-    margin: 0 0 0 50px;
+    margin: 0 0 0 30px;
   }
 
   p{
@@ -36,8 +36,8 @@
 /* This selector is in control of the Header component */
 .header-component{
 
-  border-bottom: solid 1px black;
-  margin: 0 20px 20px 20px;
+  border-bottom: solid 1px rgb(190,190,190);
+  margin: 0 20px 40px 20px;
   .header-title{
     text-align: center;
     padding: 30px 0 0 0;
@@ -80,9 +80,11 @@
   h4{
     margin: 0 0 15px 0;
   }
+
   ul{
-    li{
-      list-style-type: none;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    a{
       margin: 10px 0 10px 0;
       font-size: .8em;
       border-bottom: dotted rgb(190,190,190) 1px;
