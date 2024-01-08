@@ -61,14 +61,15 @@
 
 /* This selector is in control of the demoreel component */
 .demoreel{
-
+  height: 100%;
   display: grid;
   justify-content: center;
-
-  .video-player{
+  align-content: center;
+  .player-wrapper{
     aspect-ratio: 16/9;
-    max-width: 90vw;
-    width: 800px;
+    width: 80vw;
+    max-width: 900px;
+
   }
 }
 
