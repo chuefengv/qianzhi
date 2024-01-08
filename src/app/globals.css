@@ -87,7 +87,7 @@
 }
 .footer-component ul a {
   margin: 10px 0 10px 0;
-  font-size: 0.8em;
+  font-size: em;
   border-bottom: dotted rgb(190, 190, 190) 1px;
   width: -moz-fit-content;
   width: fit-content;
@@ -152,7 +152,7 @@
   max-width: 600px;
 }
 .equipment .text-container {
-  font-size: 0.8em;
+  font-size: 1em;
   max-width: 500px;
   padding: 20px;
 }/*# sourceMappingURL=globals.css.map */
