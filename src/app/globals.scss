@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+  }
+
+  li{
+    margin: 0 0 0 30px;
+  }
+
+  p{
+    margin: 10px 0 10px 0;
+  }
+}
+
+.layout{
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  max-width: 1300px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+/* This selector is in control of the Header component */
+.header-component{
+
+  border-bottom: solid 1px rgb(190,190,190);
+  margin: 0 20px 40px 20px;
+  
+  .header-title{
+    display: grid;
+    justify-content: center;
+    padding: 30px 0 0 0;
+    text-align: center;
+    h1{
+      width: fit-content;
+    }
+    h4{
+      color: rgb(150,150,150);
+      margin: 10px 0 0px 0;
+    }
+  }
+
+  .page-links{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    .link-el{
+      margin: 0 30px 0 30px;
+    }
+    :hover{
+      color: rgb(190,190,190);
+    }
+  }
+}
+
+/* This selector is in control of the demoreel component */
+.demoreel{
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  .player-wrapper{
+    aspect-ratio: 16/9;
+    width: 80vw;
+    max-width: 900px;
+  }
+}
+
+/* This selector is in control of the Footer component */
+.footer-component{
+  border-top: solid rgb(190,190,190) 1px;
+  margin: 40px 20px 0 20px;
+  padding: 15px 0 15px 0;
+  
+  h4{
+    margin: 0 0 15px 15px;
+  }
+
+  ul{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin: 0 0 0 15px;
+    a{
+      margin: 10px 0 10px 0;
+      font-size: .8em;
+      border-bottom: dotted rgb(190,190,190) 1px;
+      width: fit-content;
+    }
+  }
+
+  .copyright{
+    text-align: center;
+    font-size: .8em;
+    color: rgb(149, 149, 149);
+  }
+}
+
+/* this is the selector for the projects page components */
+.projects{
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  column-gap: 15px;
+  row-gap: 15px;
+  margin: 0px 40px 0px 40px;
+
+  .image-wrapper{
+    position: relative;
+    .image-title{
+      position: absolute;
+      display: grid;
+      justify-content: center;
+      align-content: center;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      h4{
+        color: white;
+      }
+    }
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: opacity .05s ease-out;
+    }
+  }
+
+  .image-wrapper:hover{
+    .image-title{
+      z-index: 1;
+    }
+    img{
+      opacity: .65;
+    }
+  }
+}
+
+.equipment{
+  display: grid;
+  margin: 0 20px 0 20px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
+  .image-container{
+    margin: 0 20px 0 20px;
+     img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+     }
+  }
+
+  .supp-image-container{
+    max-width: 300px;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .text-container{
+    margin: 15px;
+  }
+ }
