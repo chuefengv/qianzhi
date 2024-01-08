@@ -1,22 +1,23 @@
 'use client'
-import { useState, useEffect } from "react"
 import React from 'react'
 import "../../app/globals.css"
+import dynamic from "next/dynamic";
+const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
+
 
 export default function Demoreel() {
-
-  const URL = "https://www.youtube.com/watch?v=ABJJQLeVlqA&ab_channel=QianzhiShen"
-  //checks the window to see if there is content, if there content then load the video player
-  const [hasWindow, setHasWindow] = useState(false);
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      setHasWindow(true);
-    }
-  }, []);
+  const URL = "https://www.youtube.com/watch?v=ABJJQLeVlqA"
 
   return (
     <div className='demoreel'>
-      <iframe className="video-player" src="https://www.youtube.com/embed/ABJJQLeVlqA?si=GH0cKTreCREuMo6F" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+      <div className="player-wrapper">
+        <ReactPlayer 
+          className='react-player'
+          width='100%'
+          height='100%'
+          url={URL}
+        />
+      </div>
     </div>
   )
 }

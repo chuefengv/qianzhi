@@ -39,12 +39,18 @@
 
   border-bottom: solid 1px rgb(190,190,190);
   margin: 0 20px 40px 20px;
+  
   .header-title{
-    text-align: center;
+    display: grid;
+    justify-content: center;
     padding: 30px 0 0 0;
-    
+    text-align: center;
+    h1{
+      width: fit-content;
+    }
     h4{
       color: rgb(150,150,150);
+      margin: 10px 0 0px 0;
     }
   }
 
@@ -55,20 +61,22 @@
     .link-el{
       margin: 0 30px 0 30px;
     }
-
+    :hover{
+      color: rgb(190,190,190);
+    }
   }
 }
 
 /* This selector is in control of the demoreel component */
 .demoreel{
-
+  height: 100%;
   display: grid;
   justify-content: center;
-
-  .video-player{
+  align-content: center;
+  .player-wrapper{
     aspect-ratio: 16/9;
-    max-width: 90vw;
-    width: 800px;
+    width: 80vw;
+    max-width: 900px;
   }
 }
 
@@ -79,12 +87,13 @@
   padding: 15px 0 15px 0;
   
   h4{
-    margin: 0 0 15px 0;
+    margin: 0 0 15px 15px;
   }
 
   ul{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin: 0 0 0 15px;
     a{
       margin: 10px 0 10px 0;
       font-size: .8em;
