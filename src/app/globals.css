@@ -105,7 +105,7 @@
   -moz-column-gap: 15px;
        column-gap: 15px;
   row-gap: 15px;
-  margin: 0px 40px 0px 40px;
+  padding: 0px 10px 0px 10px;
 }
 .projects .image-wrapper {
   position: relative;
@@ -141,26 +141,18 @@
 .equipment {
   display: grid;
   margin: 0 20px 0 20px;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-}
-.equipment .image-container {
-  margin: 0 20px 0 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
 }
 .equipment .image-container img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-}
-.equipment .supp-image-container {
-  max-width: 300px;
-}
-.equipment .supp-image-container img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  max-width: 600px;
 }
 .equipment .text-container {
-  margin: 15px;
+  font-size: 0.8em;
+  max-width: 500px;
+  padding: 20px;
 }/*# sourceMappingURL=globals.css.map */
