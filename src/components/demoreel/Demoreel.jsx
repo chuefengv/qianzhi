@@ -17,6 +17,7 @@ export default function Demoreel() {
           height='100%'
           controls={true}
           url={URL}
+          light={"https://qianzhishen.s3.amazonaws.com/demoreel_thumbnail.png"}
         />
       </div>
     </div>
