@@ -25,7 +25,6 @@ export default function equipment() {
           <li>Rock and Roller Cart</li>
         </ul>
       </section>
-
     </div>
   )
 }
