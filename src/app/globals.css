@@ -53,6 +53,7 @@
 }
 .header-component .page-links .link-el {
   margin: 0 10px 0 10px;
+  font-size: 1.25em;
 }
 .header-component .page-links :hover {
   color: rgb(190, 190, 190);
@@ -76,26 +77,26 @@
   border-top: solid rgb(190, 190, 190) 1px;
   margin: 40px 20px 0 20px;
   padding: 15px 0 15px 0;
+  text-align: center;
 }
 .footer-component h4 {
-  margin: 0 0 15px 15px;
+  margin: 0 0 30px 0;
+  font-size: 1.25em;
 }
 .footer-component ul {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
   margin: 0 0 0 15px;
 }
 .footer-component ul a {
-  margin: 10px 0 10px 0;
-  font-size: em;
-  border-bottom: dotted rgb(190, 190, 190) 1px;
+  margin: 20px;
   width: -moz-fit-content;
   width: fit-content;
+  font-size: 1.75em;
 }
 .footer-component .copyright {
   text-align: center;
   font-size: 0.8em;
   color: rgb(149, 149, 149);
+  margin: 30px 0 0 0;
 }
 
 /* this is the selector for the projects page components */
@@ -152,7 +153,7 @@
   max-width: 600px;
 }
 .equipment .text-container {
-  font-size: 1em;
   max-width: 500px;
   padding: 20px;
+  font-size: 1.2em;
 }/*# sourceMappingURL=globals.css.map */

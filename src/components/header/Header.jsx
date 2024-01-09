@@ -10,24 +10,18 @@ export default function Header() {
           <Link href='/'>
             <h1>QIANZHI SHEN</h1>
           </Link>
-          <h4>STEADICAM OPERATOR</h4>
+          <h4>STEADICAM / CAMERA OPERATOR</h4>
         </div>
 
         <div className='page-links'>
           <Link className='link-el' href='/'> 
-            <ul>
-              DEMOREEL
-            </ul>
+              REEL
           </Link>
           <Link className='link-el' href='/projects'> 
-            <ul>
-              PROJECTS
-            </ul>
+              WORK
           </Link>
           <Link className='link-el' href='/equipment'> 
-            <ul>
-              EQUIPMENT
-            </ul>
+              ABOUT
           </Link>
         </div>
 

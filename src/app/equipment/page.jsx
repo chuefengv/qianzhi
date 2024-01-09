@@ -2,7 +2,6 @@
 import React from 'react'
 import "../../app/globals.css"
 import { btsimages } from '../btsimages'
-import Image from 'next/image'
 
 export default function equipment() {
 
@@ -14,8 +13,8 @@ export default function equipment() {
       </div>
 
       <section className='text-container'>
-        <h3>My Current Gear:</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tenetur accusantium nemo mollitia, unde consectetur, aliquam delectus cum voluptatum aut repudiandae. Illo tenetur reprehenderit magnam similique quis facilis eum sit.</p>
+        <p>Qianzhi (Tsyen) Shen, is a steadicam and camera operator based in New York City. Born and raised in Beijing, she is bilingual with a decade plus of camera experience.</p>
+        <h3>Gear:</h3>
         <ul>
           <li>MK-V Nexus Sled</li>
           <li>Master Series Vest</li>
