@@ -106,18 +106,23 @@
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 20px;
   padding: 0px 10px 0px 10px;
+  border: solid red 1px;
 }
 .projects .image-wrapper {
+  display: grid;
+  justify-items: center;
+  border: solid blue 1px;
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .projects .image-wrapper .image-title {
   position: absolute;
   display: grid;
-  justify-content: center;
   align-content: center;
   top: 0;
-  width: 100%;
+  width: 80%;
+  text-align: center;
+  border: solid green 1px;
   height: 100%;
   z-index: -1;
 }
