@@ -9,7 +9,7 @@ export default function equipment() {
     <div className='equipment'>
 
       <div className='image-container'>
-        <img src={btsimages[7].url} alt='trets' />
+        <img src={btsimages[9].url} alt='trets' />
       </div>
 
       <section className='text-container'>
@@ -25,6 +25,14 @@ export default function equipment() {
           <li>Rock and Roller Cart</li>
         </ul>
       </section>
+
+      <div className='image-container'>
+        <img src={btsimages[11].url} alt='trets' />
+      </div>
+
+      <div className='image-container'>
+        <img src={btsimages[8].url} alt='trets' />
+      </div>
     </div>
   )
 }
