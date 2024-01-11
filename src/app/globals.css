@@ -105,7 +105,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 20px;
-  padding: 0px 10px 0px 10px;
+  padding: 0 25px 0 25px;
 }
 .projects .image-wrapper {
   display: grid;
